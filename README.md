@@ -2,7 +2,7 @@
 
 This repository contains Podman examples such as network, volumes, environment variables, and other features.
 
-# How to build the podman yaml files?
+# How do you play the podman yaml files?
 
 Always build the podman yaml file from the root directory, for example:
 
@@ -10,7 +10,7 @@ Always build the podman yaml file from the root directory, for example:
 podman play kube pods/whoami.yaml
 ```
 
-# How to tear down pods?
+# How do you tear down pods?
 
 ```shell
 podman play kube --down pods/whoami.yaml
