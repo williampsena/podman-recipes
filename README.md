@@ -10,6 +10,16 @@ Always build the podman yaml file from the root directory, for example:
 podman play kube pods/whoami.yaml
 ```
 
+# How do you generate kubernetes pod yaml file?
+
+```shell
+# stdout
+podman generate kube whoami
+
+# write ile
+podman generate kube whoami > /tmp/pod.yaml
+```
+
 # How do you tear down pods?
 
 ```shell

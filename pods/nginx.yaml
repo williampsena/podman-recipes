@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  containers:
+  - name: nginx
+    image: docker.io/bitnami/nginx:latest
+    ports:
+    - containerPort: 3000
+      protocol: TCP
+    env:
+    - name: NGINX_HTTP_PORT_NUMBER
+      value: 3000
+    - name: NGINX_ENABLE_ABSOLUTE_REDIRECT
+      value: yes
+    - name: NGINX_ENABLE_PORT_IN_REDIRECT
+      value: yes
+  restartPolicy: Never
+  dnsPolicy: Default
