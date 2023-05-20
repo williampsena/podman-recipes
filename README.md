@@ -28,6 +28,5 @@ podman play kube --down pods/whoami.yaml
 
 # Related articles
 
-- [Using K3s to create a local Kubernetes environment](https://willsena.dev/using-k3s-to-create-a-local-kubernetes-environment/)
  - [How to Run Secure Pods with Podman](https://willsena.dev/how-to-run-secure-pods-with-podman/)
  - [Building Kubernetes-style pods with Podman](https://willsena.dev/building-kubernetes-style-pods-with-podman/)
