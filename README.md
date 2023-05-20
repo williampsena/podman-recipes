@@ -29,3 +29,4 @@ podman play kube --down pods/whoami.yaml
 # Related articles
 
  - [How to Run Secure Pods with Podman](https://willsena.dev/how-to-run-secure-pods-with-podman/)
+ - [Building Kubernetes-style pods with Podman](https://willsena.dev/building-kubernetes-style-pods-with-podman/)
