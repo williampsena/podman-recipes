@@ -11,7 +11,6 @@ spec:
     image: docker.io/traefik/whoami:latest
     ports:
     - containerPort: 3000
-      hostPort: 3000
       protocol: TCP
     env:
     - name: WHOAMI_PORT_NUMBER
