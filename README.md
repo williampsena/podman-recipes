@@ -28,5 +28,6 @@ podman play kube --down pods/whoami.yaml
 
 # Related articles
 
+- [Running the Traefik, my favorite Edge Router with Podman](https://willsena.dev/running-the-traefik-my-favorite-cloud-edge-router-with-podman/)
  - [How to Run Secure Pods with Podman](https://willsena.dev/how-to-run-secure-pods-with-podman/)
  - [Building Kubernetes-style pods with Podman](https://willsena.dev/building-kubernetes-style-pods-with-podman/)
