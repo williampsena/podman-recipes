@@ -10,6 +10,7 @@ spec:
     image: docker.io/traefik/whoami:latest
     ports:
     - containerPort: 8080
+      hostPort: 8080
       protocol: TCP
     env:
     - name: WHOAMI_PORT_NUMBER
